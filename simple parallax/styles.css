@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    width: 1000px;
+}
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    height: 400px;
+}
+.bg1 {
+    background-image: url('https://avatars.mds.yandex.net/get-pdb/70729/be50e587-72b4-406d-b4f6-8a3496062fc8/orig')
+}
+.bg2 {
+    background-image: url('https://images5.alphacoders.com/360/360393.jpg')
+}
+.bg3 {
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/48om2T3Se/forest-background-nature_v37f6eede__F0000.png')
+}
+.bg4 {
+    background-image: url('https://pics.freeartbackgrounds.com/fullhd/Forest_Sunlight_Background-954.jpg')
+}
