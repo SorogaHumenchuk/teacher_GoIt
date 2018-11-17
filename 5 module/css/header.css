@@ -1,0 +1,41 @@
+.header {
+    background-image: url(../img/bg-img-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+}
+
+.article {
+    float: right;
+    width: 525px;
+}
+
+.title {
+    font-size: 64px;
+    text-shadow: 2px 2px 8px #000000;
+    color: #ffffff;
+    margin-bottom: 28px;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 36px;
+}
+
+.btn {
+    padding: 10px 60px;
+    background-color: #C66666;
+    font-size: 24px;
+    color: #ffffff;
+    border: 1px solid #c66666;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+

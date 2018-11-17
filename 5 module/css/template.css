@@ -1,0 +1,31 @@
+.template {
+    background-image: url(../img/bg-img-03.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:115px 0;
+}
+
+.template-article {
+    width: 425px;
+    float: right;
+}
+
+.template-sub-title {
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+.template-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.template-btn {
+    display: block;
+    margin-left: auto;
+}

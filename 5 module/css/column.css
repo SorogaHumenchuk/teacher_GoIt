@@ -1,0 +1,45 @@
+.column {
+    background-image: url(../img/bg-img-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 110px 0;
+}
+
+.column-center {
+    width: 760px;
+    margin: auto;
+}
+
+.column-article {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 340px;
+    padding: 40px;
+}
+
+.column-article:first-child {
+    float: left;
+}
+
+.column-article:last-child {
+    float: right;
+}
+
+.sub-title {
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.text {
+    font-size: 19px;
+}
+
+.column-text {
+    margin-bottom: 20px;
+}
+
+.column-btn {
+    display: block;
+    margin: auto;
+}

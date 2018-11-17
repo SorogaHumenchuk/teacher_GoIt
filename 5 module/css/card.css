@@ -1,0 +1,26 @@
+.card {
+    background-image: url(../img/bg-img-04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 135px 0;
+}
+
+.card-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 340px;
+    padding: 40px;
+    float: left;
+    margin-right: 40px;
+}
+
+.card-item:last-child {
+    margin-right: 0;
+}
+
+.card-title {
+    color: #008000;
+    margin-bottom: 18px;
+    font-size: 28px;
+}
