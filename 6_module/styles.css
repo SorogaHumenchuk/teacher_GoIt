@@ -68,7 +68,55 @@
     height: 100%;
     width: 24.5%;
     background-color: #fce38a;
+
 }
 .icon__item:hover {
     background-color: #95e1d3;
+}
+
+
+
+/* ///////////////////////////////////// */
+
+ 
+
+
+
+.services__article {
+    width: 255px;
+}
+.services__article h4 {
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    margin-bottom: 22px;
+}
+.services__article p {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+}
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1150px;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.services__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+}
+.services__item:nth-child(n) {
+    margin-bottom: 90px;
+}
+.serveces__img {
+    margin-top: -80px;
 }
