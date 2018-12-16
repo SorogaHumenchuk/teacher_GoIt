@@ -1,0 +1,91 @@
+.section__derams {
+    background-image: url('../img/Vector\ Smart\ Object.png');
+    height: 700px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section-derams__shadow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.header__btns{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.header__btn {
+    color: #fff;
+    width: 90px;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 0;
+}
+.header__btn:hover {
+    border: 2px solid #fff;
+}
+.section-meet__title {
+    width: 260px;
+    margin: 70px auto 0 auto;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+figure {
+    text-align: center;
+}
+.description {
+    width: 225px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(102, 102, 102);
+    margin: auto;
+}
+.name {
+    line-height: 50px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(51, 51, 51);
+}
+.img__container {
+    margin: auto;
+    width: 125px;
+    height: 125px;
+    position: relative;
+}
+.shape__container1 {
+    position: absolute;
+    right: 0px;
+    bottom: 5px;
+    width: 35px;
+    height: 35px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background-color: #ff4e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__meet li{
+    margin-bottom: 35px;
+}
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
+.partners__btn {
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid red;
+    background-color: transparent;
+    color: red;
+}
