@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: center;
 }
+.logo {
+    display: none;
+}
 .section-derams__shadow {
     width: 100%;
     height: 100%;
@@ -34,7 +37,7 @@
     margin: 70px auto 0 auto;
     text-align: center;
     font-size: 22px;
-    font-family: "Montserrat";
+    font-family: "Roboto";
     color: rgb(51, 51, 51);
     font-weight: bold;
     margin-bottom: 20px;
@@ -43,17 +46,18 @@ figure {
     text-align: center;
 }
 .description {
-    width: 225px;
+    width: 205px;
     font-size: 14px;
-    font-family: "Myriad Pro";
+    font-family: "Roboto";
     color: rgb(102, 102, 102);
     margin: auto;
 }
 .name {
     line-height: 50px;
     font-size: 14px;
-    font-family: "Myriad Pro";
+    font-family: "Roboto";
     color: rgb(51, 51, 51);
+    font-weight: bold;
 }
 .img__container {
     margin: auto;
