@@ -1,0 +1,62 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.section-top {
+    background-image: url('./img/Layer15.jpg');
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+}
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    width: 620px;
+}
+.header__item > a > svg {
+    fill: #fff;
+} 
+.header__logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+.title__container {
+    margin-top: 160px;
+    text-align: center;
+}
+.title__container > p {
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+
+}
+.title__container > h1 {
+    width: 650px;
+    font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.header__item a:hover {
+    color: #fce38a;
+}
+.header__item > a > svg:hover {
+    fill: #fce38a;
+}
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive; */
